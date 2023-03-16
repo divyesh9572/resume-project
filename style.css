@@ -1,0 +1,288 @@
+body {
+    margin: 0px;
+}
+
+/* Body Header */
+
+#body-header {
+    height: 65vh;
+    width: auto;
+    opacity: 0.8;
+    background-image: url("macbook_mouse.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+
+/* Horizontal list */
+
+.horizontal-list {
+    padding-left: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.horizontal-list li {
+
+    display: inline-block;
+    margin: 0px 64px 0px 0px;
+
+}
+
+.horizontal-list li a {
+    color: white;
+    text-decoration: none;
+
+
+}
+
+.nav-menu li a {
+    margin-top: 24px;
+}
+
+.nav-menu li a:hover {
+    color: lightgray;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Name and Social Items */
+#name-social-container {
+    margin-top: 20vh;
+}
+
+#my-name {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: whitesmoke;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+
+}
+
+.social-icons li a i {
+    color: rgb(236, 229, 229);
+    padding: 10px;
+    font-size: 1.5rem;
+
+    border-radius: 50%;
+}
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px red;
+}
+
+/* section class */
+section {
+    width: 100%;
+    /* height: 75vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+section:nth-child(2n) {
+    background-color: #9e9b9b29;
+}
+
+section:nth-child(2n + 1) {
+    background-color: white;
+}
+
+
+.section-heading {
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+}
+
+.section-heading span {
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+
+/* About Section */
+#about {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#my-image {
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+#about p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Skill Section */
+
+
+
+.skill-display {
+    width: 70%;
+    /* height: 50px; */
+     display: flex;
+     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.skill-progress {
+    width: 8rem;
+    height: 1.6rem;
+    background-color: lightgray;
+    border-radius: 0.8rem;
+   margin: 10px 0px;
+
+}
+
+.skill-progress>div {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.skill-name span {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    margin-left: 2.1rem;
+
+}
+
+/* Time-line */
+
+.timeline {
+    position: relative;
+    width: 75%;
+     /* border: 2px solid rgb(12, 2, 2); */
+}
+
+.timeline-box {
+    position: relative;
+    margin: 5px;
+    width: 40%;
+    left: 5%;
+    min-height: 150px;
+    /* border: 2px solid black; */
+
+}
+
+.timeline-box:nth-child(2n) {
+    left: 53%;
+}
+.timeline-box:nth-child(2n+1):after{
+    content: '';
+    border-radius: 50%;
+    position: absolute;
+    top: 32%;
+    right: -13%;
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: red;
+    z-index: 1;
+}
+.timeline-box:nth-child(2n):after{
+    content: '';
+    border-radius: 50%;
+    position: absolute;
+    top: 32%;
+    left: -10%;
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: red;
+    z-index: 1;
+}
+
+.timeline-divider {
+    position: absolute;
+    height: 75%;
+    width: 0;
+    border: 3px dashed #0096fa6b;
+    top: 10%;
+    left: 50%;
+    z-index: 2;
+
+}
+.timeline-traveller{
+    position: sticky;
+    font-size: 1.5rem;
+    top:25%;
+    transform: rotate(90deg);
+}
+
+
+
+/* common margin class */
+.mb75px {
+    margin-bottom: 75px;
+}
+
+.text-highlight {
+    color: #2857a4;
+}
+
+.mb-blue {
+    background-color: #3f1bc4;
+}
+
+.mb-red {
+    background-color: red;
+}
+
+.mb-green {
+    background-color: rgb(207, 52, 174);
+}
+
+.mb-white {
+    background-color: greenyellow;
+
+}
+
+/* persontage common class */
+
+
+.eighty-five-percent {
+    width: 85%;
+    height: inherit;
+}
+
+.ninety-percent {
+    width: 90%;
+    height: inherit;
+}
+
+.ninety-five-percent {
+    width: 65%;
+    height: inherit;
+}
+
+.seventy-five-percent {
+    width: 80%;
+    height: inherit;
+}
+
+.fifty-percent {
+    width: 50%;
+    height: inherit;
+}
